@@ -1,9 +1,11 @@
 import { NavButton } from "../components/NavButton";
+import { ThreeModel } from "../components/ThreeModel";
 
 const CafePage = () => {
   return (
     <>
-      <NavButton to='/profile' text='Back'/>
+      <NavButton to='/' text='Back'/>
+      <ThreeModel />
     </>
   )
 }

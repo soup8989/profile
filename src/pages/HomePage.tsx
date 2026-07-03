@@ -13,7 +13,7 @@ const HomePage = () => {
             <h1 className="opacity-100 text-white text-4xl font-semibold z-10 text-center"> Welcome to mai website</h1>
 
           </div>
-          <NavButton to='/cafe' text='Enter'/>
+          <NavButton to='/profile/cafe' text='Enter'/>
         </div>
       </div>
 
