@@ -1,0 +1,12 @@
+@reference "tailwindcss";
+
+/* CloudAnimation.css */
+
+@keyframes drift {
+  0% {
+    transform: translateX(-120vw);
+  }
+  100% {
+    transform: translateX(120vw);
+  }
+}

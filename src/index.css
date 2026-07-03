@@ -131,3 +131,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom stuff */
+@theme {
+  --animate-drift-fore: drift 10s linear infinite;
+  --animate-drift-mid: drift 90s linear infinite;
+  --animate-drift-back: drift 120s linear infinite;
+}
