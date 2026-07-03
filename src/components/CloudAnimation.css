@@ -4,9 +4,9 @@
 
 @keyframes drift {
   0% {
-    transform: translateX(-120vw);
+    transform: translate(-120vw, 120vh);
   }
   100% {
-    transform: translateX(120vw);
+    transform: translate(120vw, -100vh);
   }
 }
