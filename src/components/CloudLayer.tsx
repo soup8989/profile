@@ -5,7 +5,11 @@ const CloudLayer = () => {
   // const config = LAYER_CONFIG[props.layer];
 
   return (
-    <Cloud image={cloud1}/>
+		<>
+			<Cloud image={cloud1} layer='fore'/>
+			<Cloud image={cloud1} layer='mid'/>
+			<Cloud image={cloud1} layer='back'/>
+		</>
   )
 }
 
